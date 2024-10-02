@@ -53,7 +53,7 @@ export const LinkPopup = ({ gameProps }) => {
         }
 
         setAllowCopy(true);
-        let link = `http://localhost:3001/?w=${encryptToNumber(customWord)}&gpgl=${gameProps.guessLength}&gprl=${gameProps.repeatedLetters}&gpas=${gameProps.allowEndInS}&gphm=${gameProps.hardcoreMode}`;
+        let link = `https://sohilnadarajan.github.io/2bulls1cow/?w=${encryptToNumber(customWord)}&gpgl=${gameProps.guessLength}&gprl=${gameProps.repeatedLetters}&gpas=${gameProps.allowEndInS}&gphm=${gameProps.hardcoreMode}`;
         setCustomLink(link);
         setCustomRestrictionVisibility("hidden");
     }
