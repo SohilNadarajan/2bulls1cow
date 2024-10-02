@@ -35,7 +35,7 @@ export const Game = ({ themeProps, gameProps }) => {
 
         const wParam = params.get('w');
         if (wParam) { setWord(decryptFromNumber(wParam).toUpperCase()); }
-        else { setCustomUsed(true); }
+        else { setWord(getRandomWord()); }
 
         const gpgl = parseInt(params.get('gpgl'), 10) || 4;
         const gprl = params.get('gprl') === 'true' ? true : false;
