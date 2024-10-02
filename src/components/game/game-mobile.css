@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    .input-box:focus {
+        outline: none;
+    }
+    
+    .input-box {
+        border: 2px solid black;
+        border-radius: 5px;
+        font-family: "Outfit", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 21px;
+        letter-spacing: 6px;
+        padding: 10px 20px;
+        text-align: center;
+        width: 160px;
+        margin-bottom: 5px;
+    }
+}

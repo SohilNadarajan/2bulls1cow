@@ -1,4 +1,5 @@
 import './infopopup.css';
+import './infopopup-mobile.css';
 import React, { useState, useEffect } from 'react';
 
 export const InfoPopup = () => {

@@ -1,4 +1,5 @@
 import './gameheader.css';
+import './gameheader-mobile.css';
 import React, { useState, useEffect } from 'react';
 import { InfoPopup } from '../infopopup/infopopup';
 import { SettingsPopup } from '../settingspopup/settingspopup';

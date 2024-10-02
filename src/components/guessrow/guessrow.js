@@ -1,4 +1,5 @@
 import './guessrow.css';
+import './guessrow-mobile.css';
 
 export const GuessRow = ({ index, word, guess, setGameOver, theme }) => {
     const zeroEmojis = ["🙂‍↔️", "🙅‍♂️", "💩", "🤷‍♂️"];

@@ -1,4 +1,5 @@
 import './game.css';
+import './game-mobile.css';
 import React, { useState, useEffect } from 'react';
 import { GuessRow } from '../guessrow/guessrow';
 import { allWords } from '../EOWL/allWords';

@@ -1,10 +1,11 @@
 import './settingspopup.css';
+import './settingspopup-mobile.css';
 import React, { useState, useEffect } from 'react';
 
 export const SettingsPopup = ({ gameProps }) => {
     return (
         <>
-            <div className='infopopup'>
+            <div className='settingspopup'>
                 <h1 className='popup-name'>Settings</h1>
                 <p className='popup-text'>Number of Letters</p>
                 <div id="group1" className='radio-button-group'>

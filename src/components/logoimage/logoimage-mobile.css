@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .logo-image {
+        width: 100px;
+        margin: 0 0px;
+    }
+
+    .logo-image-container {
+        margin-bottom: 20px;
+    }
+}

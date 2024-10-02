@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    .guessrow {
+        display: flex;
+        justify-content: center;
+        font-family: "Outfit", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 24px;
+        font-style: normal;
+        letter-spacing: 12px;
+    }
+
+    .guess {
+        float: right;
+        margin-right: 10px;
+    }
+    
+    .result {
+        margin-left: 10px;
+    }
+}

@@ -1,4 +1,5 @@
 import './logoimage.css';
+import './logoimage-mobile.css';
 
 export const LogoImage = ({ theme }) => {
     return (

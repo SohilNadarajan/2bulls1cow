@@ -1,4 +1,5 @@
 import './linkpopup.css';
+import './linkpopup-mobile.css';
 import React, { useState, useEffect } from 'react';
 
 export const LinkPopup = ({ gameProps }) => {
