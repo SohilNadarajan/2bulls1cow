@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2bulls1cow/static/css/main.ec387d50.css",
+    "main.css": "/2bulls1cow/static/css/main.6b3f08e7.css",
     "main.js": "/2bulls1cow/static/js/main.585a5323.js",
     "static/media/orangutan.png": "/2bulls1cow/static/media/orangutan.580160d6975a321627b3.png",
     "static/media/flamingo.png": "/2bulls1cow/static/media/flamingo.768e2f635461e4aa8db2.png",
@@ -13,7 +13,7 @@
     "index.html": "/2bulls1cow/index.html"
   },
   "entrypoints": [
-    "static/css/main.ec387d50.css",
+    "static/css/main.6b3f08e7.css",
     "static/js/main.585a5323.js"
   ]
 }
