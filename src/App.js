@@ -6,7 +6,7 @@ import { GamePage } from './components/gamepage/gamepage.js';
 function App() {
 	return (
 		<>
-			<Router basename='/2bulls1cow'>
+			<Router>
 				<Routes>
 					<Route path="/" element={<GamePage />} />
 				</Routes>
