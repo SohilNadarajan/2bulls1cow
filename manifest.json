@@ -1,0 +1,25 @@
+{
+  "short_name": "2 Bulls 1 Cow",
+  "name": "2 Bulls 1 Cow",
+  "icons": [
+    {
+      "src": "bull.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "bull.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "bull.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
