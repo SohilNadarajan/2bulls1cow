@@ -1,0 +1,9 @@
+.logo-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image {
+    width: 140px;
+    margin: 0 0px;
+}

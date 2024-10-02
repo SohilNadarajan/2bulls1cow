@@ -1,0 +1,40 @@
+.infopopup {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 100;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    overflow: scroll;
+}
+
+.popup-name {
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.popup-text {
+    margin: 10px 0;
+}
+
+.popup-list {
+    margin-left: 20px;
+}
+
+.popup-list li {
+    font-size: 15px;
+    margin: 5px 0;
+    color: dimgray;
+}
+
+b {
+    color: black;
+}

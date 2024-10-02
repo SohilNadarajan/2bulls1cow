@@ -1,0 +1,50 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    padding-top: 10px;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.input-box {
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 6px;
+    padding: 15px 30px;
+    text-align: center;
+    width: 160px;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px 30px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.guess-restrictions {
+    color: red;
+    text-align: center;
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}

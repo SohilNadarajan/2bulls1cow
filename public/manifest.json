@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "2 Bulls 1 Cow",
+  "name": "2 Bulls 1 Cow",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "bull.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "bull.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "bull.png",
       "type": "image/png",
       "sizes": "512x512"
     }
