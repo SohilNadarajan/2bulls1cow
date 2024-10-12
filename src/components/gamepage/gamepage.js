@@ -22,6 +22,7 @@ export const GamePage = () => {
     const [repeatedLetters, setRepeatedLetters] = useState(false);
     const [allowEndInS, setAllowEndInS] = useState(false);
     const [hardcoreMode, setHardcoreMode] = useState(false);
+    const [giveUp, setGiveUp] = useState(false);
     const gameProps = {
         guessLength,
         setGuessLength,
@@ -30,7 +31,9 @@ export const GamePage = () => {
         allowEndInS,
         setAllowEndInS,
         hardcoreMode,
-        setHardcoreMode
+        setHardcoreMode,
+        giveUp,
+        setGiveUp
     }
 
     return (

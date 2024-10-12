@@ -5,7 +5,7 @@ import { GuessRow } from '../guessrow/guessrow';
 import { allWords } from '../EOWL/allWords';
 import Confetti from 'react-dom-confetti';
 
-const config = {
+const winConfig = {
     angle: 90,
     spread: 360,
     startVelocity: 40,
@@ -19,7 +19,22 @@ const config = {
     colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
 };
 
+const loseConfig = {
+    angle: 90,
+    spread: 360,
+    startVelocity: 40,
+    elementCount: 70,
+    dragFriction: 0.12,
+    duration: 5000,
+    stagger: 3,
+    width: "3px",
+    height: "80px",
+    perspective: "500px",
+    colors: ["#D2042D", "#880808", "#A52A2A", "#EE4B2B", "#800020"]
+};
+
 export const Game = ({ themeProps, gameProps }) => {
+    const [config, setConfig] = useState(winConfig);
     const [placeholder, setPlaceholder] = useState("GUESS");
     const [word, setWord] = useState("");
     const [customUsed, setCustomUsed] = useState(false);
@@ -29,6 +44,13 @@ export const Game = ({ themeProps, gameProps }) => {
     const [guessRestriction, setGuessRestriction] = useState("--");
     const [guessRestrictionVisibility, setGuessRestrictionVisibility] = useState("hidden");
     const [gameOver, setGameOver] = useState(false);
+
+    useEffect(() => {
+        if (gameProps.giveUp) {
+            setAllGuesses((prevGuesses) => [...prevGuesses, word]);
+            setConfig(loseConfig);
+        }
+    }, [gameProps.giveUp]);
 
     useEffect(() => {
         const params = new URLSearchParams(window.location.search);
@@ -139,6 +161,8 @@ export const Game = ({ themeProps, gameProps }) => {
         .catch((err) => console.error("Error importing words:", err));
         setAllGuesses([]);
         setGameOver(false);
+        gameProps.setGiveUp(false);
+        setConfig(winConfig);
     }
 
     const handleKeyPress = (e) => {
